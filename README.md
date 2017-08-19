@@ -6,16 +6,16 @@
  In the event the array has no such points, `NaN` will be returned.
  
  
-#### Install
+### Installation
 `npm install equinumerica`
 
-##### ES6 Nodules
-`import equinumerica from 'equinumerica`
+##### ES6 Modules
+`import equinumerica from 'equinumerica'`
 
 ##### CommonJS (Node)
 `const equinumerica = require('equinumerica')`
  
-#### Usage
+### Usage
 ```javascript
 equinumerica([-1, 3, -4, 5, 1, -6, 2, 1]); //--> [1, 3, 7]
 ```
