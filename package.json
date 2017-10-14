@@ -1,10 +1,11 @@
 {
   "name": "equinumerica",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Get the indices in an array where the sum of the preceding elements is equal to the sum of the remaining elements",
   "main": "index.js",
   "scripts": {
-    "test": "xo --fix && jasmine"
+    "test": "xo --fix && jasmine",
+    "cover": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/jacobwarduk/equinumerica#readme",
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "jasmine": "^2.7.0",
     "jasmine-expect": "^3.7.1",
     "jasmine-matchers": "^0.2.3",
